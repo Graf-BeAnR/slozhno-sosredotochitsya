@@ -20,6 +20,7 @@
 	--accent-font: 700;
 	--shadow-color: #ff0070;
 }
+
 .theme_light .header__title {
 	text-shadow: 4px 4px 0 var(--shadow-color, #ff0070);
 }
@@ -63,7 +64,15 @@
 	color: var(--color-text, #353430);
 }
 
+.theme_light .link {
+	text-shadow: 2px 2px var(--accent-color, #ff8dcb);
+}
+
 .theme_light .article-text {
+	font-family: IBM Plex Mono;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 23.4px;
 	color: var(--color-text, #353430);
 }
 
@@ -129,6 +138,10 @@
 
 	.article-text {
 		color: var(--color-text, #353430);
+	}
+
+	.link {
+		text-shadow: 2px 2px var(--accent-color, #ff8dcb);
 	}
 
 	.footer__title {

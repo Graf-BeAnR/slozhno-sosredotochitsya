@@ -131,12 +131,6 @@
 	font-weight: var(--accent-font, 700);
 }
 
-/* .header__description-block {
-	font-family: IBM Plex Mono;
-	font-weight: var(--main-font, 400);
-	font-size: 18px;
-} */
-
 .header__description {
 	font-size: 18px;
 	color: var(--title-color, #000028);
@@ -181,8 +175,7 @@
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 23.4px;
-	/* margin-block-start: 20px; */
-	margin-top: 22px;
+	margin-top: 20px;
 }
 
 .sub__title-decor {
@@ -190,6 +183,10 @@
 }
 
 .article-text {
+	font-family: IBM Plex Mono;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23.4px;
 	margin-block-start: 10px;
 }
 
@@ -323,6 +320,7 @@
 		padding-left: 20px;
 		margin-block-start: 38px;
 	}
+
 	.section-title {
 		padding-top: 20px;
 		width: 236px;
@@ -331,7 +329,7 @@
 	.section__block {
 		padding-right: 20px;
 		padding-left: 20px;
-		margin-block-start: 57px;
+		margin-block-start: 60px;
 	}
 
 	.section__block-end {
@@ -342,8 +340,9 @@
 		padding-left: 20px;
 		margin-block-start: 60px;
 	}
+
 	.galery {
-		margin-block-start: 76px;
+		margin-block-start: 80px;
 		padding-right: 20px;
 		padding-left: 20px;
 	}
@@ -352,7 +351,7 @@
 		display: grid;
 		gap: 20px;
 		grid-template-columns: repeat(3, 1fr);
-		row-gap: 20px;
+		row-gap: 10px;
 		grid-template-areas:
 			'sunset sunset ice-cream'
 			'audio-tape books ice-cream'
@@ -408,11 +407,30 @@
 	.section {
 		display: grid;
 		grid-template-columns: min-content 1fr;
-		margin-block-start: 38px;
+		margin-block-start: 40px;
 	}
 
 	.section-title {
+		font-family: IBM Plex Mono;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 23.4px;
+		letter-spacing: 0%;
 		width: 314.96px;
+	}
+
+	.article-title {
+		font-family: IBM Plex Mono;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 23.4px;
+	}
+
+	.article-text {
+		font-family: IBM Plex Mono;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 23.4px;
 	}
 
 	.section__block {
@@ -431,10 +449,11 @@
 	}
 
 	.galery {
-		margin-block-start: 76px;
+		margin-block-start: 80px;
 	}
 
 	.footer {
+		margin-block-start: 60px;
 		min-block-size: 768px;
 	}
 

@@ -61,6 +61,10 @@
 }
 
 .theme_dark .section-title {
+	font-family: IBM Plex Mono;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23.4px;
 	color: var(--accent-color, #ff0070);
 }
 
