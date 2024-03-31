@@ -82,7 +82,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-self: center;
-	gap: 18px;
+	gap: 10px;
 }
 
 .header__theme-menu-item {
@@ -99,11 +99,13 @@
 }
 
 .header__theme-menu-button {
-	border: none;
-	padding: 0 13px;
-	outline: 1px solid transparent;
+	justify-content: center;
+	align-items: center;
+	min-height: 26px;
 	color: var(--accent-color, #ff0070);
-	line-height: 100%;
+	border: none;
+	padding: 0px 13px;
+	line-height: 18px;
 	text-align: center;
 	text-transform: lowercase;
 	background-color: transparent;
