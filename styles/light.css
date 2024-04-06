@@ -21,7 +21,6 @@
 	--shadow-color: #ff0070;
 	--ps-visibility: hidden;
 	--background-image: url(../images/cover-image-light.png);
-	background-size: cover;
 }
 
 .page.theme_light .pseudo-element {
@@ -41,6 +40,5 @@
 		--shadow-color: #ff0070;
 		--ps-visibility: hidden;
 		--background-image: url(../images/cover-image-light.png);
-		background-size: cover;
 	}
 }

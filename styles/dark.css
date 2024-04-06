@@ -20,7 +20,6 @@
 	--shadow-color: #ff0070;
 	--ps-visibility: visible;
 	--background-image: url(../images/cover-image-dark.png);
-	background-size: cover;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,6 +34,5 @@
 		--shadow-color: #ff0070;
 		--ps-visibility: visible;
 		--background-image: url(../images/cover-image-dark.png);
-		background-size: cover;
 	}
 }
