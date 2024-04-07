@@ -6,7 +6,7 @@
 	font-size: 18px;
 	background-color: var(--bg-color, #000028);
 	background-image: var(--background-image);
-	font-family: IBM Plex Mono, Arial, sans-serif;
+	font-family: 'IBM Plex Mono', monospace, Arial, sans-serif;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -205,11 +205,11 @@
 }
 
 .link:hover {
-	text-decoration: underline;
+	border-bottom: 1px solid var(--color-text, #f1b2ce);
 }
 
 .link:focus {
-	outline: 1px solid var(--button-color, #ff007066);
+	outline: 1px solid var(--color-text, #f1b2ce);
 }
 
 .galery {
@@ -265,6 +265,9 @@
 }
 
 .footer {
+	display: grid;
+	justify-content: center;
+	align-items: center;
 	block-size: 100vh;
 	position: relative;
 	display: flex;
@@ -303,17 +306,9 @@
 		left: 20px;
 	}
 
-	.decorated-zone {
-		min-height: 95vh;
-	}
-
 	.header {
 		padding: 20px;
 		grid-template-rows: 45% 10% 45%;
-	}
-
-	.header__theme-menu {
-		align-self: center;
 	}
 
 	.header__title {
@@ -407,7 +402,6 @@
 		margin: 0px;
 		font-family: IBM Plex Mono;
 		font-size: 157px;
-		line-height: 82.5%;
 		letter-spacing: 0%;
 		text-align: left;
 	}
@@ -425,7 +419,6 @@
 
 	.section-title {
 		min-width: 314.96px;
-		width: 100%;
 	}
 
 	.concentrate {
